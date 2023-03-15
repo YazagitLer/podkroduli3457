@@ -1,0 +1,271 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header {
+
+    border-bottom: 1px solid #E5E5E5;
+    padding: 25px 0;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+}
+
+.main-header__list {
+    display: flex;
+    gap: 115px;
+
+}
+
+.main-header__container {
+    display: flex;
+    gap: 244px;
+    align-items: center;
+}
+
+.button-black {
+
+    background: #030305;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+
+}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #030305;
+
+}
+
+.main-header__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #030305;
+    text-decoration: none;
+
+}
+
+.main-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+    margin: 0;
+    margin-bottom: 40px;
+
+    color: #030305;
+}
+
+.first-screen__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    width: 502px;
+
+    color: #030305;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.first-screen__link {
+    width: 334px;
+
+}
+
+.first-screen {
+    padding-top: 105px;
+    padding: 154px;
+    background: url(img/background.png) no-repeat center center;
+    margin-bottom: 100px;
+}
+
+.products__title {
+    margin-bottom: 40px;
+}
+
+.products__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 24px;
+}
+
+.product__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #030305;
+
+}
+
+.description__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #030305;
+
+}
+
+.description__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #030305;
+
+}
+
+.product__descriptions {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 110px 110px 110px;
+}
+
+.description__img {
+    margin: 0 auto;
+}
+
+.description {
+    text-align: center;
+}
+
+.ca__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    color: #5D5D5F;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.ca__title {
+    margin: 0;
+}
+
+.products {
+    margin-bottom: 100px;
+}
+
+.ca__form {
+    display: flex;
+    flex-direction: column;
+    width: 344px;
+    ;
+    gap: 15px;
+    position: relative;
+
+}
+
+.ca__input {
+    padding: 22px 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    color: #000000;
+
+}
+
+.ca__input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.ca__img {
+
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.ca {
+    position: relative;
+    padding-bottom: 122px;
+
+}
+
+.main-footer {
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0;
+
+
+}
+
+.main-footer__container {
+    display: flex;
+    gap: 244px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
